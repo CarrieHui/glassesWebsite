@@ -1,0 +1,361 @@
+﻿<html>
+	<head>
+		<mate content="text/html; charset=UTF-8"/>
+		<title>glassesProduct</title>
+		<style>
+			*{
+				margin: 0px;
+				padding: 0px;
+			}
+			ul,li{
+				margin: 0;
+				padding: 0;
+				list-style: none;
+			}
+			.body{
+				width: 1200px;
+				height: 1180px;
+				margin: 0 auto;
+				background: #ffffff;
+			}
+			.banner{
+				background-image: url(images/header_bg.jpg);
+				width: 1200px;
+				height: 299px;
+				position: relative;
+			}
+			.banner-top{
+				position: absolute;
+				left: 918px;
+				top: 13px;
+			}
+			.banner-top li{
+				margin-right: 17px;
+				float: left;
+				font-size: 12px;
+				color: #fff;
+			}
+			.banner-homepage{
+				position: absolute;
+				left: 360px;
+				top: 32px;
+				font-size: 16px;
+				color: #fff;
+			}
+			.banner-firsttile{
+				position: absolute;
+				left: 528px;
+				top: 51px;
+				font-size: 14px;
+				color: #fff;
+			}
+			.banner-firsttile li{
+				float: left;
+			}
+			.banner-firsttile p{
+				margin-right: 95px;
+			}
+			.banner-secondtitle{
+				position: absolute;
+				left: -29px;
+				top: 30px;
+				font-size: 12px;
+				color: #fff;
+			}
+			.banner-secondtitle li{
+				margin-right: 22px;
+			}
+			.nav{
+				width: 1140px;
+				height: 35px;
+				padding-left: 60px;
+				padding-top: 15px;
+				position: relative;
+			}
+			.nav-product{
+				width: 102px;
+				height: 24px;
+				background-image: url(images/page_title_product.png);
+				float: left;
+
+			}
+			.nav-nav{
+				padding-left: 43px;
+				padding-top: 12px;
+				font-size: 12px;
+				color: #999;
+				float: left;
+			}
+			.main{
+				width: 1200px;
+				height: 707px;
+				background: #efefef;
+			}
+			.main-side{
+				width: 174px;
+				height: 696px;
+				background: #dddddd;
+				margin-left: 15px;
+				padding-left: 16px;
+				padding-top: 8px;
+				float: left;
+			}
+			.main-side-list{
+				width: 162px;
+				height: 117px;
+			}
+			.main-side-list-clause{
+				width: 162px;
+				height: 21px;
+				background: #718dae;
+			}
+			.main-side-list-clause p{
+				font-size: 13px;
+				color: #fff;
+				margin-top: 3px;
+				padding-left: 20px;
+				padding-top: 5px;
+			}
+			.main-side-function{
+				width: 158px;
+				height: 137px;
+				background-image: url(images/function_img.png);
+				margin-top: 33px;
+			}
+			.main-container{
+				width: 995px;
+				height: 707px;
+				float: left;
+			}
+			.main-container-content{
+				width: 816px;
+				height: 375px;
+				margin-left: 84px;
+				margin-top: 36px;
+				position: relative;
+			}
+			.main-container-content-search{
+				width: 816px;
+				height: 32px;
+				background: #ececec;
+				border: 1px solid #d3d3d3;
+			}
+			.main-container-content-title{
+				width: 816px;
+				height: 28px;
+				background: #ececec;
+				margin-top: 13px;
+				border: 1px solid #d3d3d3;
+			}
+			.main-container-content-text{
+				width: 816px;
+				height: 250px;
+			}
+			.main-container-content-text li{
+				height: 11px;
+				font-size: 11px;
+				color: #7f7f7f;
+				margin-top: 14px;
+			}
+			.main-container-content-no{
+				position: absolute;
+				left: 13px
+			}
+			.main-container-content-name{
+				position: absolute;
+				left: 53px;
+			}
+			.main-container-content-feature{
+				position: absolute;
+				left: 539px;
+			}
+			.main-container-content-fit{
+				position: absolute;
+				left: 757px;
+			}
+			.main-container-content-page{
+				width: 816px;
+				height: 26px;
+				background: #ececec;
+				border: 1px solid #d3d3d3;
+				margin-top: 12px;
+			}
+			.main-container-tree{
+				width: 192px;
+				height: 54px;
+				background-image: url(images/list_img.png);
+				margin-left: 84px;
+				margin-top: 48px;
+			}
+			.footer{
+				width: 1170px;
+				height: 109px;
+				font-size: 11px;
+				padding-left: 15px;
+				padding-right: 15px;
+				padding-top: 16px;
+			}
+			.footer-p1{
+				color: #666;
+				margin-top: 14px;
+			}
+			.footer-p2{
+				color: #a9a9a9;
+				margin-top: 21px;
+			}
+			.footer-search{
+               margin-top: 14px ;
+               float:right;
+            }
+		</style>
+	</head>
+	<body>
+		<div class="body">
+			<div class="banner">
+				<ul class="banner-top">
+					<li>·首页</li>
+					<li>·登录</li>
+					<li>·注册</li>
+				</ul>
+				<div class="banner-homepage">首页</div>
+				<ul class="banner-firsttile">
+					<li>
+						<p>产品中心</p>
+						<ul class="banner-secondtitle">
+							<li>公司简介</li>
+							<li>企业文化</li>
+							<li>员工风采</li>
+							<li>资质荣誉</li>
+							<li>企业规模</li>
+						</ul>
+					</li>
+					<li>
+						<p>新闻中心</p>
+						<ul>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+					</li>
+					<li>
+						<p>研发中心</p>
+						<ul>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+					</li>
+					<li>
+						<p>联系我们</p>
+						<ul>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div class="nav">
+				<div class="nav-product"></div>
+				<p class="nav-nav">首页> 产品中心> 产品列表</p>
+			</div>
+			<div class="main">
+				<div class="main-side">
+					<ul class="main-side-list">
+						<li class="main-side-list-clause"><p>A角膜塑型镜系列</p></li>
+						<li class="main-side-list-clause"><p>B角膜塑型镜系列</p></li>
+						<li class="main-side-list-clause"><p>C角膜塑型镜系列</p></li>
+						<li class="main-side-list-clause"><p>D角膜塑型镜系列</p></li>
+						<li class="main-side-list-clause"><p>E角膜塑型镜系列</p></li>
+					</ul>
+					<div class="main-side-function"></div>
+				</div>
+				<div class="main-container">
+					<div class="main-container-content">
+						<div class="main-container-content-search"></div>
+						<div class="main-container-content-title"></div>
+						<ul class="main-container-content-text">
+							<li>
+								<span class="main-container-content-no">1</span>
+								<span class="main-container-content-name">硬性角膜接镜(RGP)</span>
+								<span class="main-container-content-feature">创新设计，舒适性突破传统产品困局</span>
+								<span class="main-container-content-fit">青少年</span>
+							</li>
+							<li>
+								<span class="main-container-content-no">2</span>
+								<span class="main-container-content-name">硬性角膜接镜(RGP)</span>
+								<span class="main-container-content-feature">创新设计，舒适性突破传统产品困局</span>
+								<span class="main-container-content-fit">青少年</span>
+							</li>
+							<li>
+								<span class="main-container-content-no">3</span>
+								<span class="main-container-content-name">硬性角膜接镜(RGP)</span>
+								<span class="main-container-content-feature">创新设计，舒适性突破传统产品困局</span>
+								<span class="main-container-content-fit">青少年</span>
+							</li>
+							<li>
+								<span class="main-container-content-no">4</span>
+								<span class="main-container-content-name">硬性角膜接镜(RGP)</span>
+								<span class="main-container-content-feature">创新设计，舒适性突破传统产品困局</span>
+								<span class="main-container-content-fit">青少年</span>
+							</li>
+							<li>
+								<span class="main-container-content-no">5</span>
+								<span class="main-container-content-name">硬性角膜接镜(RGP)</span>
+								<span class="main-container-content-feature">创新设计，舒适性突破传统产品困局</span>
+								<span class="main-container-content-fit">青少年</span>
+							</li>
+							<li>
+								<span class="main-container-content-no">6</span>
+								<span class="main-container-content-name">硬性角膜接镜(RGP)</span>
+								<span class="main-container-content-feature">创新设计，舒适性突破传统产品困局</span>
+								<span class="main-container-content-fit">青少年</span>
+							</li>
+							<li>
+								<span class="main-container-content-no">7</span>
+								<span class="main-container-content-name">硬性角膜接镜(RGP)</span>
+								<span class="main-container-content-feature">创新设计，舒适性突破传统产品困局</span>
+								<span class="main-container-content-fit">青少年</span>
+							</li>
+							<li>
+								<span class="main-container-content-no">8</span>
+								<span class="main-container-content-name">硬性角膜接镜(RGP)</span>
+								<span class="main-container-content-feature">创新设计，舒适性突破传统产品困局</span>
+								<span class="main-container-content-fit">青少年</span>
+							</li>
+							<li>
+								<span class="main-container-content-no">9</span>
+								<span class="main-container-content-name">硬性角膜接镜(RGP)</span>
+								<span class="main-container-content-feature">创新设计，舒适性突破传统产品困局</span>
+								<span class="main-container-content-fit">青少年</span>
+							</li>
+							<li>
+								<span class="main-container-content-no">10</span>
+								<span class="main-container-content-name">硬性角膜接镜(RGP)</span>
+								<span class="main-container-content-feature">创新设计，舒适性突破传统产品困局</span>
+								<span class="main-container-content-fit">青少年</span>
+							</li>
+						</ul>
+						<div class="main-container-content-page"></div>
+					</div>
+					<div class="main-container-tree"></div>
+				</div>
+			</div>
+			<div class="footer">
+				<hr color="#e7e7e7"/>
+				<div class="footer-search">
+                    <input type="text" name="product-ID" value="请输入产品标号">
+                    <input type="submit" value="MORE">
+                </div>
+				<p class="footer-p1">关于易安易 | 商务接洽 | 招贤纳士 | 客服中心 | 网站导航 | 版权所有</p>
+				<p class="footer-p2">易安易光学有限公司<br/>Copyright(C) 2010 asaweb All rights reserved</p>
+			</div>
+		</div>
+	</body>
+<html>
